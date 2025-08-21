@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['Cormorant', 'serif'],
+				'body': ['Open Sans', 'sans-serif']
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				glass: {
+					blue: '#2563EB',
+					slate: '#64748B', 
+					crystal: '#F8FAFC',
+					dark: '#1E293B'
 				}
 			},
 			borderRadius: {
