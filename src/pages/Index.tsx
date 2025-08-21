@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
+import Gallery from '@/components/Gallery';
 
 const Index = () => {
   return (
@@ -17,7 +18,7 @@ const Index = () => {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#decor" className="text-slate-600 hover:text-glass-blue transition-colors">Декор</a>
               <a href="#custom" className="text-slate-600 hover:text-glass-blue transition-colors">На заказ</a>
-              <a href="#souvenirs" className="text-slate-600 hover:text-glass-blue transition-colors">Сувениры</a>
+              <a href="#gallery" className="text-slate-600 hover:text-glass-blue transition-colors">Галерея</a>
               <a href="#interior" className="text-slate-600 hover:text-glass-blue transition-colors">Интерьерное</a>
               <a href="#metal" className="text-slate-600 hover:text-glass-blue transition-colors">Металл</a>
               <Button className="bg-glass-blue hover:bg-glass-dark text-white">Связаться</Button>
@@ -305,6 +306,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Gallery Section */}
+      <Gallery />
 
       {/* Process Section */}
       <section className="py-20 px-6 bg-slate-900 text-white">
